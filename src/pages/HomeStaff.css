@@ -1,0 +1,321 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15.5px;
+  left: 10px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-rubik);
+  color: var(--purple-blue);
+  text-align: left;
+  display: inline-block;
+}
+.validate-tickets {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--header-h3);
+  color: var(--grey-400);
+  white-space: pre-wrap;
+  text-align: center;
+}
+.nav-list-item {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-list-item:hover {
+  background-color: var(--color-blueviolet);
+}
+.log-out {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--header-h3);
+  color: var(--grey-400);
+  text-align: center;
+}
+.woman-portrait-face-icon-web-a {
+  position: relative;
+  border-radius: 448.5px;
+  width: 48px;
+  height: 42px;
+  object-fit: cover;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 88px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-21xl);
+}
+.logo-parent {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 512px);
+  right: 0;
+  left: 0;
+  height: 74px;
+}
+.twitter-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.social-media-stack {
+  position: absolute;
+  width: calc(100% - 1312px);
+  top: 11px;
+  right: 1234px;
+  left: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.engenharia-de-servios {
+  margin: 0;
+}
+.copyright,
+.copyright1 {
+  position: absolute;
+  top: 15px;
+  left: 1180px;
+  font-size: var(--body-extra-small-size);
+}
+.copyright1 {
+  top: 19px;
+  left: 906px;
+  font-size: var(--header-h4-size);
+  cursor: pointer;
+}
+.copyright1:active,
+.footer-list-item1:active,
+.footer-list-item:active {
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.5));
+}
+.list-item {
+  flex: 1;
+  position: relative;
+}
+.footer-list-item,
+.footer-list-item1 {
+  position: absolute;
+  top: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+}
+.footer-list-item {
+  width: calc(100% - 1311px);
+  right: 863px;
+  left: 448px;
+  height: 30px;
+}
+.footer-list-item1 {
+  width: calc(100% - 1256px);
+  right: 579px;
+  left: 677px;
+}
+.bottom {
+  position: absolute;
+  top: 960px;
+  left: 0;
+  width: 1440px;
+  height: 64px;
+  text-align: right;
+  font-size: var(--body-default-size);
+}
+.manually-insert-the,
+.validate-the-qr {
+  position: absolute;
+  top: calc(50% - 323.5px);
+  top: 200px;
+  left: 0;
+}
+.manually-insert-the {
+  /* top: calc(50% + 114.5px); */
+  top: 50px;
+  left: 0px;
+  font-size: var(--header-h4-size);
+  font-weight: 600;
+  color: var(--grey-600);
+}
+.button-row {
+  position: absolute;
+  /* top: calc(50% + 275.5px); */
+  top: 150px;
+  left: 0px;
+}
+.base-text-input {
+  border: 1px solid var(--grey-300);
+  outline: 0;
+  top: 250px;
+  font-family: var(--header-h3);
+  font-size: var(--header-h4-size);
+  background-color: var(--true-white);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  color: var(--grey-800);
+}
+.helpertext {
+  position: relative;
+}
+.helper-text,
+.text-input {
+  align-items: center;
+  justify-content: flex-start;
+}
+.helper-text {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-9xs);
+}
+.text-input {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  font-size: var(--body-extra-small-size);
+  color: var(--grey-400);
+}
+.base-text-input1 {
+  position: absolute;
+  top: calc(50% - 253.5px);
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--true-white);
+  border: 1px solid var(--grey-300);
+  box-sizing: border-box;
+  width: 384px;
+  height: 277px;
+  overflow: hidden;
+}
+.validate-the-qr-codes-parent {
+  position: absolute;
+  top: calc(50% - 285px);
+  left: 82px;
+  width: 384px;
+  height: 647px;
+  color: var(--purple-blue);
+}
+.description,
+.title {
+  position: absolute;
+  left: 75px;
+  display: inline-block;
+}
+.title {
+  top: calc(50% - 397px);
+  color: var(--grey-600);
+  width: 548px;
+  height: 33px;
+}
+.description {
+  top: calc(50% - 352px);
+  font-size: var(--header-h4-size);
+  width: 590px;
+}
+.home-staff {
+  position: relative;
+  background-color: var(--true-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--header-h3-size);
+  color: var(--grey-400);
+  font-family: var(--header-h3);
+}
+.home-staff:hover {
+  animation: 0.3s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+
+
+.insert-ticket-input {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+
+
+.base-text-input4 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid var(--grey-300);
+  font-family: var(--body-default);
+  font-size: var(--body-large-size);
+  background-color: var(--true-white);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+
+
+.helper-text3 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  display: none;
+  align-items: center;
+  padding: var(--padding-11xs) var(--padding-9xs);  
+}
+
+
+.label22 {
+  position: relative;
+}

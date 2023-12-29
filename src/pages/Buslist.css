@@ -1,0 +1,1008 @@
+.footer-divider5 {
+  position: absolute;
+  top: 942.5px;
+  left: calc(50% - 718px);
+  width: 1440px;
+  height: 1px;
+}
+.twitter-icon4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-media-stack4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.engenharia-de-servios4 {
+  margin: 0;
+}
+.copyright4 {
+  position: relative;
+}
+.bottom4,
+.logo5 {
+  position: absolute;
+}
+.bottom4 {
+  top: 960px;
+  left: 2px;
+  width: 1440px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-101xl);
+  box-sizing: border-box;
+}
+.logo5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 26.5px;
+  left: 24px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-rubik);
+  color: var(--purple-blue);
+  text-align: left;
+  display: inline-block;
+}
+.plan-your-trip4 {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+}
+.nav-list-item10 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-list-item11 {
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 92px;
+  overflow: hidden;
+}
+.costumer-support3,
+.my-tickets13 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-size: var(--body-extra-small-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: left;
+  display: inline-block;
+}
+.costumer-support3 {
+  top: 29px;
+}
+.submenu4 {
+  position: absolute;
+  top: 29px;
+  left: -2px;
+  width: 103px;
+  height: 59px;
+  display: none;
+}
+.my-account3,
+.services4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.my-account3 {
+  position: absolute;
+  top: 10px;
+  left: -2px;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+  display: inline-block;
+}
+.services4 {
+  position: relative;
+  width: 92px;
+  height: 42px;
+}
+.services4:hover .submenu4 {
+  display: flex;
+}
+.image-1-icon3 {
+  position: relative;
+  border-radius: var(--br-281xl);
+  width: 38px;
+  height: 41px;
+  object-fit: cover;
+}
+.lista-admins-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px; /* Adjust the gap between items as needed */
+}
+
+.lista-admins-child {
+  background-color: var(--color-gray-200);
+  border-bottom: 2px solid var(--purple-blue);
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.lista-admins-child:hover {
+  background-color: var(--color-skyblue);
+}
+.menu8,
+.menu9 {
+  position: absolute;
+}
+.menu9 {
+  top: 1px;
+  right: 0; 
+  left: 450%; 
+  transform: translateX(-50%);
+  width: 130%; 
+  max-width: 1440px; 
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-21xl);
+  color: var(--grey-400);
+}
+.menu8 {
+  top: 0;
+  left: 0;
+  width: 20%; /* Adjust as needed */
+  height: 96px;
+}
+.lista-admins-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 96px;
+}
+/*
+.lista-admins-child {
+  top: 38px;
+  background-color: var(--color-gray-200);
+  border-bottom: 2px solid var(--purple-blue);
+  box-sizing: border-box;
+  width: 1257px;
+  height: 52px;
+}
+.lista-admins-child1:hover,
+.lista-admins-child2:hover,
+.lista-admins-child3:hover,
+.lista-admins-child4:hover,
+.lista-admins-child5:hover,
+.lista-admins-child:hover,
+.lista-admins-inner:hover,
+.lista-admins-item:hover {
+  background-color: var(--color-skyblue);
+}
+.lista-admins-child1,
+.lista-admins-child2,
+.lista-admins-child3,
+.lista-admins-child4,
+.lista-admins-child5,
+.lista-admins-inner,
+.lista-admins-item {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  background-color: var(--color-gray-200);
+  border-bottom: 2px solid var(--purple-blue);
+  box-sizing: border-box;
+  width: 1255px;
+  height: 55px;
+}
+.lista-admins-child1,
+.lista-admins-child2,
+.lista-admins-child3,
+.lista-admins-child4,
+.lista-admins-child5,
+.lista-admins-inner {
+  top: 145px;
+  width: 1257px;
+  height: 52px;
+}
+.lista-admins-child1,
+.lista-admins-child2,
+.lista-admins-child3,
+.lista-admins-child4,
+.lista-admins-child5 {
+  top: 197px;
+}
+.lista-admins-child2,
+.lista-admins-child3,
+.lista-admins-child4,
+.lista-admins-child5 {
+  top: 249px;
+}
+.lista-admins-child3,
+.lista-admins-child4,
+.lista-admins-child5 {
+  top: 301px;
+}
+.lista-admins-child4,
+.lista-admins-child5 {
+  top: 353px;
+  left: 2px;
+}
+.lista-admins-child5 {
+  top: 405px;
+  left: 1px;
+} */
+.div67,
+.div68 {
+  position: absolute;
+  top: 49px;
+  left: 1px;
+  letter-spacing: 0.05em;
+}
+.div68 {
+  top: 102.5px;
+  left: 0.5px;
+}
+.div72,
+.div73,
+.div74,
+.div75,
+.div76,
+.num1 {
+  position: absolute;
+  top: 158px;
+  left: 1px;
+  letter-spacing: 0.05em;
+}
+.div73,
+.div74,
+.div75,
+.div76,
+.num1 {
+  top: 210px;
+}
+.div74,
+.div75,
+.div76,
+.num1 {
+  top: 264px;
+}
+.div75,
+.div76,
+.num1 {
+  top: 316px;
+}
+.div76,
+.num1 {
+  top: 368px;
+}
+.num1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  color: var(--purple-blue);
+  width: 79px;
+}
+.div77,
+.number {
+  position: absolute;
+  left: 1px;
+}
+.div77 {
+  top: 420px;
+  letter-spacing: 0.05em;
+}
+.number {
+  top: 1px;
+  width: 79px;
+  height: 464px;
+}
+.departure2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  color: var(--purple-blue);
+}
+.porto {
+  position: absolute;
+  left: 7px;
+  letter-spacing: 0.04em;
+  color: #333;
+  font-weight: bold;
+  top: calc(98.5px + 55.5px * (var(--index, 0) - 1));
+}
+/* .porto1,
+.porto2 {
+  position: absolute;
+  top: 98.5px;
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.porto2 {
+  top: 154px;
+}
+.porto3,
+.porto4,
+.porto5,
+.porto6,
+.porto7,
+.porto8 {
+  position: absolute;
+  top: 206px;
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.porto4,
+.porto5,
+.porto6,
+.porto7,
+.porto8 {
+  top: 260px;
+}
+.porto5,
+.porto6,
+.porto7,
+.porto8 {
+  top: 312px;
+}
+.porto6,
+.porto7,
+.porto8 {
+  top: 364px;
+}
+.porto7,
+.porto8 {
+  top: 416px;
+}
+.porto8 {
+  top: 45px;
+} */
+.departure1 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 64px;
+  height: 438px;
+}
+.div78 {
+  position: absolute;
+  top: 99.5px;
+}
+.div78,
+.div79,
+.div80 {
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.div79 {
+  position: absolute;
+  top: 155px;
+}
+.div80 {
+  top: 207px;
+}
+.div80,
+.div81,
+.div82 {
+  position: absolute;
+}
+.div81 {
+  top: 261px;
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.div82 {
+  top: 313px;
+}
+.div82,
+.div83,
+.div84 {
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.div83 {
+  position: absolute;
+  top: 365px;
+}
+.div84 {
+  top: 417px;
+}
+.div84,
+.div85,
+.stops1 {
+  position: absolute;
+}
+.div85 {
+  top: 46px;
+  left: 7px;
+  letter-spacing: 0.04em;
+}
+.stops1 {
+  top: 0;
+  left: 377px;
+  width: 36px;
+  height: 439px;
+}
+.departure-time2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 49.5px);
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  color: var(--purple-blue);
+}
+.departure-time-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px; /* Adjust the gap between items as needed */
+}
+
+.departure-time-item {
+  letter-spacing: 0.05em;
+  position: absolute;
+  left: 30px;
+  background-color: var(--color-gray-200);
+  border-bottom: 2px solid var(--purple-blue);
+  box-sizing: border-box;
+  height: 52px;
+}
+
+.departure-time-item:hover {
+  background-color: var(--color-skyblue);
+}
+/* .div86,
+.div87 {
+  position: absolute;
+  top: 44px;
+  left: 30px;
+  letter-spacing: 0.05em;
+}
+.div87 {
+  top: 99.5px;
+  left: 29.5px;
+}
+.div88,
+.div89,
+.div90,
+.div91,
+.div92,
+.div93 {
+  position: absolute;
+  top: 154px;
+  left: 30px;
+  letter-spacing: 0.05em;
+}
+.div89,
+.div90,
+.div91,
+.div92,
+.div93 {
+  top: 206px;
+}
+.div90,
+.div91,
+.div92,
+.div93 {
+  top: 260px;
+}
+.div91,
+.div92,
+.div93 {
+  top: 312px;
+}
+.div92,
+.div93 {
+  top: 364px;
+}
+.div93 {
+  top: 417px;
+} */
+.departure-time1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 543.5px);
+  width: 99px;
+  height: 439px;
+}
+.arrivals2 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 27px);
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  color: var(--purple-blue);
+}
+.div94,
+.div95 {
+  position: absolute;
+  top: 46px;
+  left: 1px;
+  letter-spacing: 0.05em;
+}
+.div95 {
+  top: 99.5px;
+  left: 0.5px;
+}
+.div100,
+.div101,
+.div96,
+.div97,
+.div98,
+.div99 {
+  position: absolute;
+  top: 155px;
+  left: 1px;
+  letter-spacing: 0.05em;
+}
+.div100,
+.div101,
+.div97,
+.div98,
+.div99 {
+  top: 207px;
+}
+.div100,
+.div101,
+.div98,
+.div99 {
+  top: 261px;
+}
+.div100,
+.div101,
+.div99 {
+  top: 313px;
+}
+.div100,
+.div101 {
+  top: 365px;
+}
+.div101 {
+  top: 417px;
+}
+.arrivals1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 139.5px);
+  width: 54px;
+  height: 439px;
+}
+.destination2 {
+  position: absolute;
+  top: 0;
+  left: 39.8px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  color: var(--purple-blue);
+  width: 84.1px;
+}
+.lisboa-airport,
+.lisboa-st1,
+.lisboa-st2 {
+  position: absolute;
+  top: 101.5px;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 217px;
+}
+.lisboa-airport,
+.lisboa-st2 {
+  top: 157px;
+  width: 163.6px;
+}
+.lisboa-st2 {
+  top: 209px;
+  width: 217px;
+}
+.lisboa-airport1,
+.lisboa-airport2,
+.lisboa-airport3,
+.lisboa-st3,
+.lisboa-st4 {
+  position: absolute;
+  top: 263px;
+  left: 0;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 163.6px;
+}
+.lisboa-airport2,
+.lisboa-airport3,
+.lisboa-st3,
+.lisboa-st4 {
+  top: 315px;
+  width: 217px;
+}
+.lisboa-airport2,
+.lisboa-airport3,
+.lisboa-st4 {
+  top: 367px;
+}
+.lisboa-airport2,
+.lisboa-airport3 {
+  top: 419px;
+  width: 163.6px;
+}
+.lisboa-airport3 {
+  top: 48px;
+}
+.destination1 {
+  top: 0;
+  left: 618px;
+  width: 217px;
+  height: 441px;
+}
+.destination1,
+.div102,
+.price1 {
+  position: absolute;
+}
+.price1 {
+  top: 0;
+  left: calc(50% - 34.4px);
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  display: inline-block;
+  color: var(--purple-blue);
+  width: 44.1px;
+}
+.div102 {
+  top: 45px;
+  left: 0.7px;
+  width: 80.1px;
+}
+.div102,
+.div103,
+.div104 {
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.div103 {
+  position: absolute;
+  top: 98.5px;
+  left: 0;
+  width: 76.1px;
+}
+.div104 {
+  top: 154px;
+  left: 0.7px;
+  width: 80.1px;
+}
+.div104,
+.div105,
+.div106 {
+  position: absolute;
+}
+.div105 {
+  top: 206px;
+  left: 0.7px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 93.5px;
+}
+.div106 {
+  top: 260px;
+  width: 80.1px;
+}
+.div106,
+.div107,
+.div108 {
+  left: 0.7px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+.div107 {
+  position: absolute;
+  top: 312px;
+  width: 93.5px;
+}
+.div108 {
+  top: 364px;
+  width: 80.1px;
+}
+.div108,
+.div109,
+.price {
+  position: absolute;
+}
+.div109 {
+  top: 416px;
+  left: 0.7px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  width: 80.1px;
+}
+.price {
+  top: 0;
+  left: calc(50% + 247px);
+  width: 94.2px;
+  height: 438px;
+}
+
+.ativo11,
+.ativo13,
+.ativo15,
+.ativo3,
+.ativo5,
+.ativo7,
+.ativo9 {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumaquamarine);
+  width: 81px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.ativo3 {
+  top: 48px;
+  cursor: pointer;
+}
+.ativo11,
+.ativo13,
+.ativo15,
+.ativo5,
+.ativo7,
+.ativo9 {
+  top: 154px;
+}
+.ativo11,
+.ativo13,
+.ativo15,
+.ativo7,
+.ativo9 {
+  top: 207px;
+}
+.ativo11,
+.ativo13,
+.ativo15,
+.ativo9 {
+  top: 260px;
+}
+.ativo11,
+.ativo13,
+.ativo15 {
+  top: 313px;
+}
+.ativo13,
+.ativo15 {
+  top: 366px;
+}
+.ativo15 {
+  top: 419px;
+}
+.ativo18 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 0.07em;
+  font-family: var(--font-inter);
+  color: var(--true-white);
+  text-align: left;
+}
+.ativo17 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-mediumaquamarine);
+  position: absolute;
+  top: 101px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 81px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.actions,
+.actions1 {
+  position: absolute;
+  top: 0;
+}
+.actions1 {
+  left: 16px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.1em;
+  color: var(--purple-blue);
+}
+.actions {
+  left: 1174px;
+  width: 81px;
+  height: 443px;
+  font-size: var(--font-size-3xs);
+  color: var(--true-white);
+}
+
+.lista-admins {
+  position: absolute;
+  top: 182px;
+  left: 91px;
+  width: 1259px;
+  height: 465px;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  overflow-y: auto; 
+}
+.hero-icon1 {
+  position: absolute;
+  width: 100%;
+  top: 96px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 700px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.7;
+}
+.departing {
+  color: var(--purple-blue);
+}
+.choose-a-departing-container {
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--grey-600);
+}
+.buslist {
+  position: relative;
+  background-color: var(--true-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--body-large-size);
+  color: var(--grey-400);
+  font-family: var(--body-default);
+}
+
+
+.header, .body, .row {
+  display: flex;
+}
+
+.header {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+.row {
+  border-bottom: 1px solid #ccc;
+}
+
+.row div {
+  padding: 8px;
+}
+
+.number, .date, .departure, .departure-time, .destination, .arrival-time, .actions {
+  flex: 1;
+}
+
+.actions button {
+  margin: 0;
+}
+
+
+.trips-table {
+  position: relative;
+  background-color: var(--true-white);
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--grey-400);
+  font-family: var(--body-default);
+}
+
+.trips-table th {
+  background-color: var(--true-white); /* Header background color */
+  color: var(--purple-blue); /* Header text color */
+  padding: var(--padding-base);
+}
+
+.trips-table td {
+  padding: var(--padding-base);
+  border-bottom: 1px solid var(--color-gray-300);
+}
+
+.ativo4 {
+  position: relative;
+  letter-spacing: 0.07em;
+  /* position: absolute; */
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumaquamarine);
+  font-size: var(--body-default-size);
+  color: var(--true-white);
+  width: 110px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  top: 15px;
+  
+}
+
+
+
+.my-tickets-child {
+  position: absolute;
+  box-sizing: border-box;
+  top: 214px;
+  left: 96px;
+  background-color: var(--color-gray-200);
+  border-bottom: 2px solid var(--purple-blue);
+  width: 1255px;
+  height: 55px;
+}
+
+.my-tickets-child:hover {
+  background-color: var(--color-skyblue);
+}
+
+.lista-admins {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  overflow-y: auto; 
+}
+
+.trips-table {
+  width: 100%;
+}
+.trips-table th, .trips-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

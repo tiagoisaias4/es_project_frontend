@@ -1,0 +1,546 @@
+.my-tickets {
+  color: var(--purple-blue);
+}
+.thank-you-for-container {
+  position: absolute;
+  top: 220px;
+  left: 96px;
+  display: inline-block;
+  width: 756px;
+  color: var(--grey-400);
+}
+.bon-voyage-jos1 {
+  position: absolute;
+  top: 130px;
+  left: 96px;
+  font-size: var(--header-h3-size);
+  color: var(--purple-blue);
+}
+.confirmation-number-38102940 {
+  position: absolute;
+  top: 179px;
+  left: 96px;
+  display: inline-block;
+  width: 756px;
+  font-weight: 600;
+}
+.travel-summary1 {
+  position: absolute;
+  top: 321px;
+  left: 96px;
+  font-size: var(--header-h3-size);
+}
+.departing-december-17th1 {
+  position: absolute;
+  top: 378px;
+  left: 96px;
+  font-weight: 600;
+}
+.seat-9f-economy1,
+.seat-n-91 {
+  position: absolute;
+  top: 557px;
+  left: 101px;
+  font-size: var(--body-default-size);
+  color: var(--grey-400);
+}
+.seat-9f-economy1 {
+  top: 603px;
+  left: 96px;
+}
+.airline-name1 {
+  align-self: stretch;
+  position: relative;
+  width: 183px;
+}
+.airline-details1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.departure-and-arrival1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+.layover-info1 {
+  align-self: stretch;
+  position: relative;
+  color: var(--grey-400);
+  right: -23px;
+}
+.flight-details1 {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: right;
+}
+.data-row-chosen-flight-detai1,
+.data-row-flights-in-cart1 {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.data-row-chosen-flight-detai1 {
+  width: 321px;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.data-row-flights-in-cart1 {
+  position: absolute;
+  top: 419px;
+  left: 96px;
+  border-radius: var(--br-xs);
+  background-color: var(--true-white);
+  border: 1px solid var(--purple-extra-light);
+  width: 410px;
+  flex-direction: column;
+  padding: var(--padding-base);
+  font-size: var(--body-default-size);
+  color: var(--grey-900);
+}
+.payment-method1,
+.price-breakdown1 {
+  position: absolute;
+  top: 611px;
+  left: 96px;
+  font-size: var(--header-h3-size);
+}
+.payment-method1 {
+  top: 942px;
+  left: 103px;
+}
+.subtotal1 {
+  flex: 1;
+  position: relative;
+}
+.div3 {
+  position: relative;
+  text-align: right;
+}
+.subtotal-group,
+.taxes-and-fees-group {
+  position: absolute;
+  top: 668px;
+  left: 96px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taxes-and-fees-group {
+  top: 705px;
+}
+.frame-inner {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--grey-200);
+  height: 1px;
+}
+.amount-paid1,
+.div5 {
+  position: relative;
+  font-weight: 600;
+}
+.amount-paid1 {
+  flex: 1;
+}
+.div5 {
+  font-size: var(--body-default-size);
+  color: var(--grey-900);
+  text-align: right;
+}
+.amount-paid-group,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount-paid-group {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xs) 0;
+}
+.rectangle-group {
+  position: absolute;
+  top: 742px;
+  left: 101px;
+  width: 400px;
+  flex-direction: column;
+  color: var(--grey-800);
+}
+.name2 {
+  position: absolute;
+  bottom: 54px;
+  left: 24px;
+  font-size: var(--body-large-size);
+  font-weight: 600;
+}
+.span4 {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.span5 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: var(--body-default);
+}
+.card-number2 {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-family: var(--font-roboto);
+}
+.expiration-date2 {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: right;
+}
+.credit-card2,
+.logo-icon2 {
+  position: absolute;
+  top: 28px;
+  left: 24px;
+  width: 76px;
+  height: 24px;
+  overflow: hidden;
+}
+.credit-card2 {
+  top: 999px;
+  left: 103px;
+  border-radius: var(--br-base);
+  background: linear-gradient(180deg, #eb568c, #ed5e76);
+  box-shadow: -4px -4px 16px rgba(0, 0, 0, 0.1) inset,
+    4px 4px 16px rgba(255, 255, 255, 0.2) inset;
+  width: 300px;
+  height: 188px;
+  font-size: var(--body-default-size);
+  color: var(--purple-white);
+}
+.you-can-email {
+  position: absolute;
+  top: 1292px;
+  left: 103px;
+  color: var(--grey-400);
+  display: inline-block;
+  width: 682px;
+}
+.share-your-travel {
+  position: absolute;
+  top: 1243px;
+  left: 103px;
+  font-size: var(--header-h3-size);
+}
+.button4 {
+  position: absolute;
+  top: 820px;
+  left: 100px;
+  border-radius: var(--br-9xs);
+  background-color: var(--purple-blue);
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  color: var(--grey-100);
+}
+.label15 {
+  position: relative;
+  display: none;
+}
+.button5 {
+  position: absolute;
+  top: 1421px;
+  left: 277px;
+  border-radius: var(--br-9xs);
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  color: var(--purple-blue);
+}
+.label16,
+.money-price-cost3 {
+  position: relative;
+  height: 32px;
+}
+.money-price-cost3 {
+  border-radius: var(--br-9xs);
+  width: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label16 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.base-text-input3 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--true-white);
+  border: 1px solid var(--grey-300);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  gap: var(--gap-5xs);
+}
+.helper-text2,
+.text-input {
+  align-items: center;
+  justify-content: flex-start;
+}
+.helper-text2 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-9xs);
+  font-size: var(--body-extra-small-size);
+}
+.text-input {
+  position: absolute;
+  top: 1341px;
+  left: 103px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  color: var(--grey-400);
+}
+.x-close-no3 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.base-callout2,
+.success1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.base-callout2 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-azure);
+  border: 1px solid var(--color-teal);
+  align-items: center;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-5xl);
+  gap: var(--gap-9xs);
+}
+.success1 {
+  position: absolute;
+  top: 96px;
+  left: 96px;
+  align-items: flex-start;
+  font-size: var(--body-default-size);
+  color: var(--color-teal);
+}
+.qr-code-for-mobile-english-wik-icon {
+  position: absolute;
+  top: 358px;
+  left: 556px;
+  width: 296px;
+  height: 296px;
+  overflow: hidden;
+}
+.footer-divider1 {
+  position: absolute;
+  top: 1538.5px;
+  left: calc(50% - 720px);
+  width: 1440px;
+  height: 1px;
+}
+.twitter-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.social-media-stack {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.engenharia-de-servios {
+  margin: 0;
+}
+.copyright {
+  position: relative;
+}
+.bottom,
+.logo1 {
+  position: absolute;
+}
+.bottom {
+  top: 1556px;
+  left: 0;
+  width: 1440px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-101xl);
+  box-sizing: border-box;
+  text-align: right;
+  color: var(--grey-400);
+}
+.logo1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 26.5px;
+  left: 24px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-rubik);
+  color: var(--purple-blue);
+  text-align: left;
+  display: inline-block;
+}
+.plan-your-trip1 {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+}
+.nav-list-item3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-list-item4 {
+  position: absolute;
+  top: 0;
+  left: -9px;
+  width: 92px;
+  overflow: hidden;
+}
+.costumer-support,
+.my-tickets3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  font-size: var(--body-extra-small-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: left;
+  display: inline-block;
+}
+.costumer-support {
+  top: 29px;
+}
+.submenu1 {
+  position: absolute;
+  top: 29px;
+  left: -2px;
+  width: 103px;
+  height: 59px;
+  display: none;
+}
+.my-account,
+.services1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.my-account {
+  position: absolute;
+  top: 10px;
+  left: -2px;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+  display: inline-block;
+}
+.services1 {
+  position: relative;
+  width: 92px;
+  height: 42px;
+}
+.services1:hover .submenu1 {
+  display: flex;
+}
+.image-1-icon {
+  position: relative;
+  border-radius: var(--br-281xl);
+  width: 38px;
+  height: 41px;
+  object-fit: cover;
+}
+.menu2,
+.menu3 {
+  position: absolute;
+}
+.menu3 {
+  top: 11px;
+  left: 906px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-21xl);
+}
+.menu2 {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 96px;
+}
+.ticket-emission {
+  position: relative;
+  background-color: var(--true-white);
+  width: 100%;
+  height: 1636px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--grey-600);
+  font-family: var(--body-default);
+}

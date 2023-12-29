@@ -1,0 +1,143 @@
+.open-button {
+  position: relative;
+  letter-spacing: 0.07em;
+  /* position: absolute; */
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-palevioletred);
+  font-size: var(--body-default-size);
+  color: var(--true-white);
+  width: 110px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  top: 15px;
+  
+}
+.logo2 {
+  cursor: pointer;
+  position: absolute;
+}
+.logo2 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 26.5px;
+  left: 24px;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-rubik);
+  color: var(--purple-blue);
+  text-align: left;
+  display: inline-block;
+}
+.plan-your-trip2 {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+}
+.nav-list-item5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu4,
+.menu5 {
+position: absolute;
+}
+.menu5 {
+  top: 1px;
+  right: 0;
+  left: 450%;
+  transform: translateX(-50%);
+  width: 130%;
+  max-width: 1440px; 
+  height: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-21xl);
+  color: var(--grey-400);
+}
+.menu4 {
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 96px;
+}
+.hero-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 96px;
+}
+.hero-icon {
+  width: 100%;
+  top: 96px;
+  right: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 700px;
+  object-fit: cover;
+  display: none;
+  opacity: 0.7;
+}
+.booked-travels {
+  position: absolute;
+  top: 113px;
+  left: 24px;
+  font-weight: 600;
+  font-family: var(--body-default);
+  color: var(--grey-600);
+}
+.my-tickets4 {
+  position: relative;
+  background-color: var(--true-white);
+  width: 100%;
+  height: 1273px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.lista-admins {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  overflow-y: auto;
+  margin-left: 200px;
+}
+
+.trips-table {
+  /* You can adjust max-width or width based on your layout requirements */
+  max-width: 100%;
+}
+
+.trips-table th, .trips-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: -10; /* Set a higher z-index value to keep it above other elements */
+}
+

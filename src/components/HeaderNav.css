@@ -1,0 +1,71 @@
+/* Your existing styles */
+
+.menu10,
+.menu11 {
+  position: absolute;
+}
+.menu11 {
+  top: 11px;
+  left: 906px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-21xl);
+}
+.menu10 {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 96px;
+}
+.logo6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-17xl);
+  font-weight: 700;
+  font-family: var(--font-rubik);
+  color: var(--purple-blue);
+  text-align: left;
+  display: inline-block;
+}
+.nav-list-item12 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.plan-your-trip6 {
+  position: relative;
+  font-size: var(--body-default-size);
+  font-family: var(--body-default);
+  color: var(--grey-400);
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .menu11 {
+    flex-direction: column; /* Change to column layout for small screens */
+    align-items: flex-start;
+  }
+
+  .logo6 {
+    text-align: center; /* Center logo for small screens */
+    margin-bottom: 10px; /* Add spacing between logo and menu items */
+  }
+
+  .nav-list-item12 {
+    width: 100%; /* Make menu items full width for small screens */
+    box-sizing: border-box;
+  }
+}

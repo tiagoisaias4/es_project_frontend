@@ -1,0 +1,304 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.bon-voyage-jos,
+.travel-summary {
+  position: absolute;
+  left: 41px;
+  font-size: var(--header-h3-size);
+}
+.bon-voyage-jos {
+  top: 107px;
+  color: var(--purple-blue);
+}
+.travel-summary {
+  top: 155px;
+}
+.departing-december-17th {
+  position: absolute;
+  top: 212px;
+  left: 41px;
+  font-weight: 600;
+}
+.seat-9f-economy,
+.seat-n-9 {
+  position: absolute;
+  top: 386px;
+  left: 49px;
+  font-size: var(--body-default-size);
+  color: var(--grey-400);
+}
+.seat-9f-economy {
+  top: 337px;
+  left: 41px;
+}
+.from-oporto {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.airline-name,
+.airline-name1 {
+  align-self: stretch;
+  position: relative;
+  right: 0px;
+}
+
+.airline-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.departure-and-arrival {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+.layover-info {
+  align-self: stretch;
+  position: relative;
+  color: var(--grey-400);
+}
+.flight-details {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: right;
+}
+.data-row-chosen-flight-detai,
+.data-row-flights-in-cart {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.data-row-chosen-flight-detai {
+  width: 400px;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.data-row-flights-in-cart {
+  position: absolute;
+  top: 253px;
+  left: 41px;
+  border-radius: var(--br-xs);
+  background-color: var(--true-white);
+  border: 1px solid var(--purple-extra-light);
+  width: 415px;
+  flex-direction: column;
+  padding: var(--padding-base);
+  font-size: var(--body-default-size);
+  color: var(--grey-900);
+}
+.payment-method,
+.price-breakdown {
+  position: absolute;
+  top: 434px;
+  left: 41px;
+  font-size: var(--header-h3-size);
+}
+.payment-method {
+  top: 645px;
+}
+.div,
+.subtotal {
+  position: relative;
+}
+.subtotal {
+  flex: 1;
+}
+.div {
+  text-align: right;
+}
+.subtotal-parent,
+.taxes-and-fees-parent {
+  position: absolute;
+  top: 491px;
+  left: 41px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taxes-and-fees-parent {
+  top: 528px;
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--grey-200);
+  height: 1px;
+}
+.amount-paid,
+.div2 {
+  position: relative;
+  font-weight: 600;
+}
+.amount-paid {
+  flex: 1;
+}
+.div2 {
+  font-size: var(--body-default-size);
+  color: var(--grey-900);
+  text-align: right;
+}
+.amount-paid-parent,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amount-paid-parent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xs) 0;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 565px;
+  left: 46px;
+  width: 400px;
+  flex-direction: column;
+  color: var(--grey-800);
+}
+.name1 {
+  position: absolute;
+  bottom: 54px;
+  left: 24px;
+  font-size: var(--body-large-size);
+  font-weight: 600;
+}
+.span2 {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.span3 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: var(--body-default);
+}
+.card-number1 {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-family: var(--font-roboto);
+}
+.expiration-date1 {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: right;
+}
+.logo-icon1 {
+  top: 28px;
+  left: 24px;
+  width: 76px;
+  height: 24px;
+}
+.credit-card1,
+.logo-icon1,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.credit-card1 {
+  top: 702px;
+  left: 41px;
+  width: 415px;
+  height: 188px;
+
+  border-radius: var(--br-xs);
+  background-color: var(--true-white);
+  border: 1px solid var(--purple-extra-light);
+  flex-direction: column;
+  padding: var(--padding-base);
+  font-size: var(--body-default-size);
+  color: var(--grey-900);
+}
+.vector-icon {
+  height: 78.38%;
+  width: 78.38%;
+  top: 10.81%;
+  right: 10.81%;
+  bottom: 10.81%;
+  left: 10.81%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.ticket-number-381029404387 {
+  position: absolute;
+  /* top: 91.55%;
+  left: 12.16%; */
+  font-weight: 600;
+  width: 200px;
+  height: 1000px;
+}
+.qr-code-for-mobile-english-wik {
+  position: absolute;
+  top: 95px;
+  left: 501px;
+  width: 296px;
+  height: 296px;
+  overflow: hidden;
+  font-size: 15px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 40.1px;
+  left: 42.1px;
+  width: 24.6px;
+  height: 24.6px;
+  cursor: pointer;
+}
+.label12 {
+  position: relative;
+}
+.button2 {
+  position: absolute;
+  top: 844px;
+  left: 586px;
+  border-radius: var(--br-9xs);
+  background-color: var(--purple-blue);
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  cursor: pointer;
+  color: var(--grey-100);
+}
+.ticket {
+  background-color: var(--true-white);
+  width: 828px;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  max-width: 90%;
+  text-align: left;
+  font-size: var(--body-large-size);
+  color: var(--grey-600);
+  font-family: var(--body-default);
+}
+.ticket.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}
